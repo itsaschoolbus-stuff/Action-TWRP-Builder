@@ -44,7 +44,6 @@ on:
 
 jobs:
   build:
-    if: github.event.sender.name == 'itsaschoolbus'
     runs-on: ubuntu-24.04
     permissions:
       contents: write
